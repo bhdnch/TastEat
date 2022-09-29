@@ -1,0 +1,29 @@
+@mixin h2-title {
+  text-align: center;
+  color: $dark;
+  padding: 8px 0;
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border-top: 1px solid $gold;
+  border-bottom: 1px solid $gold;
+}
+
+@mixin see-all-dishes {
+  margin-top: 60px;
+  width: 255px;
+  height: 73px;
+  border: 2px solid $gold;
+  border-radius: 0px;
+  background: transparent;
+  cursor: pointer;
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 0.2px;
+  color: $gold;
+  transition: all $btn-transition-time;
+}
