@@ -145,8 +145,6 @@
   }
 }
 
-// PROMO ===
-
 .promo {
   background-color: $dark;
   .wrapper {
@@ -191,7 +189,6 @@
         margin-top: 30px;
         @media screen and (max-width: 1280px) {
           margin-top: 80px;
-          // font-size: 12px;
         }
       }
       button {
@@ -222,7 +219,6 @@
       height: 749px;
 
       background: url("../images/promo/image.png") no-repeat center center / cover;
-      // object-fit: cover;
 
       @media screen and (max-width: 677px) {
         width: calc(614px / 1.5);
@@ -592,9 +588,6 @@
         margin-right: 20px;
         max-width: 540px;
         background-color: #343942;
-        @media screen and (max-width: 640px) {
-          // margin: 0;
-        }
         .slide-info {
           .wrapper {
             padding: 20px 20px;
@@ -782,7 +775,6 @@
     p {
       margin: 0;
       margin-top: 15px;
-      // margin-bottom: 40px;
       font-family: "Josefin Sans";
       line-height: 30px;
       font-weight: 400;
@@ -848,9 +840,6 @@
         width: 100%;
         max-width: 318px;
         height: auto;
-        // @media screen and (max-width: 380px) {
-        //    max-width: 250px;
-        // }
       }
     }
   }
@@ -958,7 +947,7 @@
   min-height: 700px;
   &__text {
     h2 {
-      margin: 0 auto; // 720
+      margin: 0 auto;
       margin-top: 50px;
       @include h2-title;
       width: 55px;
